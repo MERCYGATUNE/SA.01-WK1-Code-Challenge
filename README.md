@@ -32,6 +32,7 @@ It's a program whose major task is to calculate an individual’s net Salary by 
 
  ## TECHNOLOGIES USED
  HTML
+ CSS
  Javascript
  Github
 
