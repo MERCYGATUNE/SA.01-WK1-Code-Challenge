@@ -5,16 +5,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GRADE GENERATOR</title>
+    <link rel="stylesheet" href="grade.css">
 </head>
 
 <!-- BODY SECTION -->
 <body>
-    <h1> GRADE GENERATOR !</h1>
+  <div class="container">   
+    <h1> Student Grade Generator !</h1>
+  </div>
+  <div>
+    <label for="englishMarks">ENGLISH Marks:</label>
+    <input type="number" id="englishMarks" min="0" max="100">
+  </div>
+  <div>
+    <label for="mathMarks">MATH Marks:</label>
+    <input type="number" id="mathMarks" min="0" max="100">
+  </div>
+  <div>
+    <label for="biologyMarks">BIOLOGY Marks:</label>
+    <input type="number" id="biologyMarks" min="0" max="100">
+  </div>
+  <div>
+    <label for="chemistryMarks">CHEMISTRY Marks:</label>
+    <input type="number" id="chemistryMarks" min="0" max="100">
+  </div>
+  <div>
+    <label for="physicsMarks">PHYSICS Marks:</label>
+    <input type="number" id="physicsMarks" min="0" max="100">
+  </div>
+  <div>
+    <label for="kiswahiliMarks">KISWAHILI Marks:</label>
+    <input type="number" id="kiswahiliMarks" min="0" max="100">
+  </div>
+  <button onclick="calculateGrade()">Calculate Percentage</button>
+  <div id="result"> 
 
-    <p>GRADE THE STUDENT'S TEST</p>
+  </div>
+   
 
-
-    
+ <script src="grade.js"></script>
 </body>
-   <script src="grade.js"></script>
 </html>

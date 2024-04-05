@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CODE CHALLENGE</title>
+    <link rel="stylesheet" href="speed.css">
 </head>
  <!-- BODY SECTION -->
 <body>
 
     <h1>SPEED DETECTOR!</h1>
+    <label for="speed">Enter the car's speed (in km/s): </label>
+    <input type="number" id="speed" name="speed">
+    <button onclick="checkSpeed()">Check Speed</button>
+    <p id="result"></p>
 
 </body>
 <script src="speed.js"></script>
